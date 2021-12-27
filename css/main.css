@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(145, 171, 228);
+}
+.container{
+    width: 35%;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+.heading{
+    text-align: center;
+    color: grey;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.label{
+    color: grey;
+    margin-bottom: 15px;
+}
+.input{
+    border: 2px solid rgb(11, 255, 64);
+    height: 25px;
+    margin-bottom: 15px;
+}
+.btn{
+    border: 2px solid rgb(11, 255, 64);
+    height: 30px;
+    margin-bottom: 15px;
+}
+.result{
+    color: red;
+}
